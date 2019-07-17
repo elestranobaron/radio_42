@@ -40,6 +40,7 @@
 		$("audio").animate({volume: 0.0}, 0);
 		priv.audio.play();
 		$("audio").animate({volume: 1.0}, 1000);
+		setVolume();
 		priv.start_anim();
 		priv.ispaused = 0;
 	};
